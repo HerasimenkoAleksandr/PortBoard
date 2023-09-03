@@ -12,9 +12,9 @@ namespace PortBoard
 {
     public partial class Form2 : Form
     {
-        Form1 form1 = null;
+        Enter form1 = null;
         public int radioButton_Select;
-        public Form2(Form1 obj)
+        public Form2(Enter obj)
         {
             InitializeComponent();
             form1 = obj;
